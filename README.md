@@ -40,11 +40,23 @@ _1. 초기  설정_
   -  
 - git log 
   -  
-- git checkout -- README.md
+- git checkout -- README.md `이전 파일로 복원`
   -  
-- git reset HEAD^
-  -  
+- git reset
+  - 
+  - git reset HEAD^ `아마 pull 한 버전으로 돌아가 겠지?`
+  - git reset --soft HEAD^ `최근 커밋을 하기 전 상태로`
+  - git reset mixed HEAD^ `최근 커밋과 스테이징을 하기 전 상태로, 옵션 없이 git reset 명령을 사용할 때 기본 `
+  - git reset --hard HEAD^ `최근 커밋,스테이징 하기전, 복구 불가`
+  - git reset --hard "commit hash" `해당 커밋으로 이동, 이후 커밋 삭제`
+- git revert
+  - 
+  - git revert "commit hash" `해당 커밋을 취소 하는 기록을 남김, 복구 가능 `
 - git remote
+  - 
   - git remote -v
   - 
-- git 
+- git branch
+  - 
+- git checkout "branch name"
+  - 
