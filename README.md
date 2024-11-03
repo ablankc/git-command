@@ -29,16 +29,18 @@ _1. 초기  설정_
 - git clone
   - 
 - git status
-  - 
-- git add -am "init repo"
+  -
+- git add * -m "New repo file"
   -   
-- git commit
-  - 
+- git commit -am "Modify file"
+  -   
 - git push
   -
 - git pull
   -  
 - git log 
+  -  
+- git checkout -- README.md
   -  
 - git reset HEAD^
   -  
