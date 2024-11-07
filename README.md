@@ -64,3 +64,11 @@ _1. 초기  설정_
 - git checkout main
   - edidt README.md file and commit & push
 - run git merge 
+- git merge "branch name"
+  - 
+- 
+ _2. merge
+- git branch MG
+- git checkout MG
+- edit file README.md
+
