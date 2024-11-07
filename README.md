@@ -60,3 +60,7 @@ _1. 초기  설정_
   - 
 - git checkout "branch name"
   - 
+
+- git checkout main
+  - edidt README.md file and commit & push
+- run git merge 
