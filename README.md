@@ -67,7 +67,7 @@ _1. 초기  설정_
 - git merge "branch name"
   - 
 - 
-_2. merge
+_2. merge_
 - git branch MG
 - git checkout MG
 - edit file README.md
@@ -78,5 +78,5 @@ _2. merge
   - git stash apply
   - git stash drop
 
-_3. git remote
+_3. git remote_
  - git remote add origin XXXX.git
